@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="icon" href="wwe_logo_icon_249155.png">
+  <title>WWEB</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <img class="logoinicio" src="wwe_logo_icon_249155.png">
+    <a class="navbar-brand" href="https://watch.wwe.com/">WWEB</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+      aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#cards" id="card">Campeãos <span class="sr-only">(página atual) </span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#historia">História</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Fotos
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Ação</a>
+            <a class="dropdown-item" href="#">Outra ação</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Algo mais aqui</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+        <button class="btn btn-outline-ligh my-2 my-sm-0" type="submit">Pesquisar</button>
+      </form>
+    </div>
+  </nav>
+
+  <!--Imagem do carrocel-->
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="imagem2.jpg" alt="Primeiro Slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="imagem1.jpg" alt="Segundo Slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="imagem3.jpg" alt="Terceiro Slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
+  <!--Java (carrocel)-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+  <br>
+  <br>
+
+
+  <div id="cards" class="card-group">
+    <div class="card">
+      <img class="card-img-top" src="card.jpg" alt="Imagem de capa do card">
+      <div class="card-body">
+        <h5 class="card-title">Roman Reings</h5>
+        <p class="card-text">O campeão indiscutível da WWE</p>
+        <p class="card-text"><small class="text-muted"></small></p>
+      </div>
+    </div>
+    <br>
+    <div class="card">
+      <img class="card-img-top" src="card2.jpg" alt="Imagem de capa do card">
+      <div class="card-body">
+        <h5 class="card-title">Jonh Cena</h5>
+        <p class="card-text">O maior campeão masculino na WWE</p>
+        <p class="card-text"><small class="text-muted"></small></p>
+      </div>
+    </div>
+    <br>
+    <div class="card">
+      <img class="card-img-top" src="card3.jpg" alt="Imagem de capa do card">
+      <div class="card-body">
+        <h5 class="card-title">Rhea Ripley</h5>
+        <p class="card-text">A atual campeã do smackdown womans champion</p>
+        <p class="card-text"><small class="text-muted"></small></p>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <div id="historia" class="historia">
+    <h1 class="titulop">A história da maior industría de Pro-Wrestling</h1>
+    <hr>
+    <p class="palavras">Na década de 1980, Vince McMahon Jr., filho de McMahon Sr., assumiu o controle da empresa e
+      começou a expandir
+      seu alcance nacionalmente. Ele adotou uma abordagem mais teatral e de entretenimento para a luta livre, promovendo
+      eventos maiores e criando personagens icônicos. Essa abordagem se tornou conhecida como "WrestleMania" e o
+      primeiro evento ocorreu em 1985. WrestleMania rapidamente se tornou um marco na indústria e ajudou a impulsionar a
+      popularidade da WWE.
+
+      Nos anos 90, a WWE enfrentou competição significativa de outras promoções de luta livre, mais notavelmente da
+      World Championship Wrestling (WCW). A competição entre as duas empresas ficou conhecida como "Monday Night Wars",
+      onde a WCW transmitia seu programa principal, o "WCW Monday Nitro", no mesmo horário que o programa da WWE, o
+      "Monday Night Raw". Essa rivalidade levou a inovações e momentos memoráveis na luta livre profissional.
+
+      No final dos anos 90, a WWE emergiu como a vencedora da guerra das promoções de luta livre, adquirindo a WCW e
+      outras promoções concorrentes. Com a concorrência eliminada, a WWE se consolidou como a líder incontestável da
+      indústria.
+
+      Nos anos 2000 e além, a WWE continuou a crescer e expandir seu império. Ela se concentrou na expansão global,
+      realizando eventos em todo o mundo e promovendo talentos de várias nacionalidades. Além disso, a empresa lançou
+      sua própria rede de transmissão, a WWE Network, que fornecia acesso a uma ampla biblioteca de conteúdo da WWE,
+      incluindo pay-per-views e programas exclusivos.
+
+      A WWE também se aventurou em outras formas de entretenimento, como filmes e programas de televisão. Vários
+      lutadores da WWE encontraram sucesso no mundo do entretenimento, incluindo Dwayne "The Rock" Johnson, John Cena e
+      Dave Bautista.
+
+      No entanto, a WWE também enfrentou críticas e controvérsias ao longo dos anos. Questões relacionadas ao bem-estar
+      dos lutadores, política de trabalho e representação de gênero têm sido temas de debate dentro da indústria.
+
+      Apesar das altas e baixas, a WWE continua sendo a principal empresa de luta livre profissional do mundo,
+      apresentando eventos ao vivo, programas semanais de televisão e desenvolvendo novos talentos para o futuro. Sua
+      história é marcada por momentos icônicos, grandes rivalidades e a criação de alguns dos mais memoráveis
+      personagens e lutadores na história da luta livre.</p>
+
+    <img src="wwe logo 2.webp">
+
+
+  </div>
+</body>
+
+</html>
